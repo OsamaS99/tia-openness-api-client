@@ -25,7 +25,7 @@ def load() -> None:
 
     if not os.path.exists(CONFIG_PATH):
         config["DEFAULT"] = {
-            "version": "V17",
+            "version": "V18",
         }
         config["USER"] = {}
         config.write(open(CONFIG_PATH, "w", encoding="utf-8"))
