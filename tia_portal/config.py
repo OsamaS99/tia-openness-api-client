@@ -13,7 +13,7 @@ from tia_portal.version import TiaVersion
 
 DATA_PATH = os.path.join(os.path.expanduser("~"), ".tia_portal")
 CONFIG_PATH = os.path.join(DATA_PATH, "config.ini")
-VERSION = TiaVersion.V15_1
+VERSION = TiaVersion.V18
 
 
 def load() -> None:
