@@ -18,3 +18,4 @@ class TiaVersion(Enum):
     V15_1 = "15_1"
     V16 = "16"
     V17 = "17"
+    V18 = "18"
